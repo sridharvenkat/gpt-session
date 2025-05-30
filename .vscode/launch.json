@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Prompt engineering",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/prompt_eng.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Function calling",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/function_call.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Structured output",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/structured_output.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
